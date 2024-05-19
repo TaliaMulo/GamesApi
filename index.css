@@ -1,0 +1,67 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#svgcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    /* Add padding to the container */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    background-color: #f2f2f2;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 30px;
+    /* Reset the margin */
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+button#viewGamesButton {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #227eff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+button#viewGamesButton:hover {
+    background-color: #1994e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
